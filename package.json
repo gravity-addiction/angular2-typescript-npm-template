@@ -2,7 +2,6 @@
   "name": "angular2-typescript-npm-template",
   "version": "1.0.0",
   "description": "Default Module for Template",
-  "main": "my-module.js",
   "private": true,
   "author": "Gary <gravity.addiction@gmail.com>",
   "license": "MIT",
