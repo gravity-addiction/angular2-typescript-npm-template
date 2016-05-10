@@ -1,5 +1,5 @@
 {
-  "name": "my-templates",
+  "name": "angular2-typescript-npm-template",
   "version": "1.0.0",
   "description": "Default Module for Template",
   "main": "my-module.js",
