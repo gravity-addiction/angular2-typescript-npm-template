@@ -6,11 +6,11 @@
 - my-service.ts - Example Angular2 Service
 
 ### NPM dependancy installer / typescript compiler
-inside ts/ folder run
 ```
 cd ts/
 npm install
 ```
+- go into your source folder ts/
 - this grabs all dependancies in ts/package.json.
 - afterwards runs the typescript compiler on this module
 - your compiled .js files can be found one directory up.
