@@ -11,7 +11,12 @@ inside ts/ folder run
 npm install
 ```
 this grabs all dependancies in ts/package.json.
+
 afterwards runs the typescript compiler on this module
+
+your compiled .js files can be found up directory up.
+
+the folder holding the compiled .js files will be where you point the npm install path
 
 ## NPM install your new package into your project
 - Install from Local folder
@@ -30,3 +35,13 @@ import { MyDirective } from 'angular2-typescript-npm-template/my-directive';
 import { MyPipe } from 'angular2-typescript-npm-template/my-pipe';
 import { MyService } from 'angular2-typescript-npm-template/my-service';
 ```
+
+# Publishing
+
+- Run a fresh npm install inside the ts/ folder
+- update the main folder package.json version number by a tick
+
+## My thoughts
+- copy my personal modules to a private git server
+- for semi-private work i will add ts/ to my .gitignore, and not upload my typescript source
+- public work I leave everything in tact
