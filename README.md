@@ -8,6 +8,7 @@
 ### NPM dependancy installer / typescript compiler
 inside ts/ folder run
 ```
+cd ts/
 npm install
 ```
 - this grabs all dependancies in ts/package.json.
