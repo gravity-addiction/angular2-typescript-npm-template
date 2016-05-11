@@ -11,8 +11,8 @@ cd ts/
 npm install
 ```
 - go into your source folder ts
-- npm install while inside you ts folder grabs all dependancies in ts/package.json.
-- afterwards as a prepublish command runs the typescript compiler on this module
+- npm install, while inside you ts folder, grabs all dependancies in ts/package.json.
+- afterwards, as a package.json prepublish command, runs the typescript compiler on this module
 - your compiled .js files can be found one directory up
 - the folder holding the compiled .js files is where you point the npm install path
 
